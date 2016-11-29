@@ -1,4 +1,4 @@
 # Rcanvas
-a high performance canvas animation solution
+a high performance solution of canvas animation
 
 To be continued ...
