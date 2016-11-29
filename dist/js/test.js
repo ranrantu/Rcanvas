@@ -1,0 +1,1 @@
+function RcanvasTest(){this.name="Rcanvas",this.length=0}var Rcanvas=new RcanvasTest;

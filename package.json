@@ -1,0 +1,22 @@
+{
+  "name": "rcanvas",
+  "version": "1.0.0",
+  "description": "rcanvas",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranrantu/Rcanvas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranrantu/Rcanvas/issues"
+  },
+  "homepage": "https://github.com/ranrantu/Rcanvas#readme",
+  "devDependencies": {
+    "gulp-uglify": "^2.0.0"
+  }
+}
