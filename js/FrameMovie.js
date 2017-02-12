@@ -1,6 +1,6 @@
 function FrameMovie(frameList){
 
-	var isArray = Array.isArray||Object.prototype.toString.call(arg) === "[object Array]";
+	var isArray = Array.isArray||function (arg){return Object.prototype.toString.call(arg) === "[object Array]";};
 
 	if(isArray(frameList)&&frameList.length){
 		this.frameList = frameList;
@@ -8,7 +8,7 @@ function FrameMovie(frameList){
 		this.frameList = [];
 	}
 
-	if(!config) config = {}; 
+	if(!config) config = {};
 	
 	this.frameNow = 0;
 
